@@ -1,0 +1,101 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hey",
+                "hello",
+                "sup",
+                "ahoj",
+                "cau",
+                "good day",
+                "hey there"
+            ],
+            "responses": [
+                "Hello there",
+                "Hi! What can I do for you?",
+                "Hello. How can i be of assistance?",
+                "Hey. How can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Byebye", "Talk to you later", "See you later", "Goodbye"],
+            "responses": [
+                "Goodbye",
+                "Have a great day!",
+                "Bye! Thanks for visiting",
+                "Have a nice rest of the day"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks a lot!", "Thanks", "Thx", "Thanks for the help"],
+            "responses": [
+                "Anytime",
+                "No problem",
+                "Happy to help!",
+                "My pleasure"
+            ]       
+        },
+        {
+            "tag": "business",
+            "patterns": [
+                "What do you sell?",
+                "What kind of products are available?",
+                "What do you have in stock?"
+            ],
+            "responses": [
+                "We sell food and drinks",
+                "We have a wide selection of products available",
+                "Take a look at our website to see what items we have in stock"
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "Do you accept credit cards?",
+                "Can i pay using Paypal?",
+                "Are you cash only?",
+                "Is it possible to pay with Visa?"
+            ],
+            "responses": [
+                "We do accept credit cards",
+                "Yes, you can pay with Paypal",
+                "While we do accept cash, you can also pay with credit card and Paypal",
+                "Unfortunately no, we only accept Mastercard at the moment"
+            ]
+        },
+        {
+            "tag": "delivery methods",
+            "patterns": [
+                "How long do i have to wait for the delivery?",
+                "How long is the shipping process?",
+                "When will it be delivered to me?",
+                "Do you deliver on Weekends?"
+            ],
+            "responses": [
+                "Delivery usually takes 2 to 5 days, depending on where you live",
+                "Shipping takes 2-5 days",
+                "Unfortunately no, we do not deliver on Weekends"
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "How old are you?",
+                "Are you a bot?",
+                "Are you being held against your will?",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "I am about 1 day old, give or take",
+                "Why yes, i am indeed a bot",
+                "No, I actually quite enjoy this job",
+                "I am a wee bot"
+            ]
+        }
+    ]
+
+}
