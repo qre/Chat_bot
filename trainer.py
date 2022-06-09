@@ -108,7 +108,3 @@ if __name__ == "__main__":
 
     FILE = 'data.pth'
     torch.save(data, FILE)
-
-    ## Program fails to run with RuntimeError: expected scalar type Long but found Int.
-    ## I suspect it has something to do with windows and its default int type as int32. Will work on the resolution to this problem.
-
